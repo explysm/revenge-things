@@ -1,0 +1,62 @@
+{
+  "name": "Apple SF Pro Font Pack",
+  "version": "1.1",
+  "description": "Discord font pack using Apple's SF Pro (San Francisco) for a native macOS/iOS feel. Works with BetterDiscord themes.",
+  "author": "Grok Assisted",
+  "fonts": {
+    "primary": {
+      "family": "-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', system-ui, sans-serif",
+      "weight": {
+        "light": 300,
+        "normal": 400,
+        "medium": 500,
+        "semibold": 600,
+        "bold": 700,
+        "heavy": 800
+      },
+      "sizes": {
+        "chat": "14px",
+        "ui": "15px",
+        "header": "20px"
+      },
+      "url": "https://cdn.jsdelivr.net/gh/mailtoharshit/San-Francisco-Font-/sanfrancisco.css"
+    },
+    "text": {
+      "family": "-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', system-ui, sans-serif",
+      "url": "https://db.onlinewebfonts.com/c/1c45e28f8e86cc89876f003b953cc3e9?family=SF+Pro+Text+Regular"
+    },
+    "emoji": {
+      "family": "Apple Color Emoji, Noto Color Emoji, Segoe UI Emoji",
+      "fallback": "Twemoji Mozilla",
+      "url": "https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css"
+    },
+    "custom": [
+      {
+        "name": "SF Pro Display Bold",
+        "family": "'SF Pro Display', -apple-system, sans-serif",
+        "weight": 700,
+        "url": "https://db.onlinewebfonts.com/c/0b51833ff62e4af8acb5fd3e2bf59e97?family=SF+Pro+Display+Regular"
+      }
+    ]
+  },
+  "overrides": {
+    "chatInput": {
+      "fontFamily": "var(--primary-font)",
+      "fontSize": "var(--chat-size)",
+      "fontWeight": "var(--normal-weight)"
+    },
+    "channelName": {
+      "fontFamily": "var(--primary-font)",
+      "fontWeight": "var(--semibold-weight)"
+    },
+    "messageContent": {
+      "fontFamily": "var(--text-font)",
+      "lineHeight": "1.2"
+    }
+  },
+  "compatibility": {
+    "betterdiscord": true,
+    "vencord": true,
+    "discordVersion": ">=1.0.9000"
+  }
+}
