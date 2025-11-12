@@ -178,11 +178,19 @@ function populateUI() {
   });
 
   // Semantic
-  for (const [k, [v]] of Object.entries(theme.semanticColors)) {
-    createPicker(document.getElementById('semantic-colors'), k, v, hex => {
-      theme.semanticColors[k] = [hex];
-      updatePreview();
-    });
+  const editableSemanticColors = [
+    "HEADER_PRIMARY", "HEADER_SECONDARY", "TEXT_NORMAL", "TEXT_MUTED",
+    "INTERACTIVE_NORMAL", "INTERACTIVE_HOVER", "INTERACTIVE_ACTIVE", "INTERACTIVE_MUTED",
+    "BACKGROUND_MOBILE_PRIMARY", "BACKGROUND_MOBILE_SECONDARY"
+  ];
+
+  for (const k of editableSemanticColors) {
+    if (theme.semanticColors[k]) {
+      createPicker(document.getElementById('semantic-colors'), k, theme.semanticColors[k][0], hex => {
+        theme.semanticColors[k] = [hex];
+        updatePreview();
+      });
+    }
   }
 
   // Raw & Plus (advanced)
@@ -213,16 +221,17 @@ function updatePreview() {
   const s = theme.semanticColors;
 
   const style = preview.style;
-  style.setProperty('--bg-primary', s.BACKGROUND_PRIMARY[0]);
-  style.setProperty('--bg-secondary', s.BACKGROUND_SECONDARY[0]);
-  style.setProperty('--bg-tertiary', s.BACKGROUND_TERTIARY[0]);
+  style.setProperty('--bg-primary', s.BACKGROUND_MOBILE_PRIMARY[0]);
+  style.setProperty('--bg-secondary', s.BACKGROUND_MOBILE_SECONDARY[0]);
+  style.setProperty('--bg-tertiary', s.BACKGROUND_MOBILE_PRIMARY[0]); // Using mobile primary for tertiary
   style.setProperty('--text-normal', s.TEXT_NORMAL[0]);
   style.setProperty('--text-muted', s.TEXT_MUTED[0]);
   style.setProperty('--header-primary', s.HEADER_PRIMARY[0]);
   style.setProperty('--interactive-normal', s.INTERACTIVE_NORMAL[0]);
   style.setProperty('--interactive-hover', s.INTERACTIVE_HOVER[0]);
-  style.setProperty('--bg-modifier-selected', s.BACKGROUND_MODIFIER_SELECTED[0]);
-  style.setProperty('--channeltextarea-background', s.CHANNELTEXTAREA_BACKGROUND[0]);
+  style.setProperty('--interactive-active', s.INTERACTIVE_ACTIVE[0]);
+  style.setProperty('--bg-modifier-selected', s.INTERACTIVE_HOVER[0]); // Using interactive hover for selected modifier
+  style.setProperty('--channeltextarea-background', s.BACKGROUND_MOBILE_SECONDARY[0]);
 
 
   // Background image + overlay
