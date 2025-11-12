@@ -1,5 +1,7 @@
 # Revenge Things
 > A repo for just anything Revenge Discord related.
+>
+> https://explysm.github.io/revenge-things
 
 ## Get started with [Theme Builder](https://explysm.github.io/revenge-things/theme-builder)
 
