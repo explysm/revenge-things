@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revenge Discord Things</title>
+    <link rel="stylesheet" href="styles/landing.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Revenge Things</a>
+            <ul class="nav-links">
+                <li><a href="#themes">Themes</a></li>
+                <li><a href="theme-builder/index.html">Theme Builder</a></li>
+                <li><a href="https://github.com/explysm/revenge-things" target="_blank">GitHub</a></li>
+                <li><a href="https://discord.gg/your-discord-invite" target="_blank">Discord</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <h1>Unleash the Power of Customization</h1>
+            <p>Discover and create stunning themes and plugins for your Discord experience.</p>
+            <div class="hero-buttons">
+                <a href="#themes" class="btn btn-primary">Explore Themes</a>
+                <a href="theme-builder/index.html" class="btn btn-secondary">Build Your Own</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="themes" class="themes-section">
+        <div class="container">
+            <h2>Community Themes</h2>
+            <p>Browse a collection of themes created by the Revenge community.</p>
+            <div class="theme-grid" id="theme-grid">
+                <!-- Themes will be loaded here by JavaScript -->
+                <div class="loading-spinner"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Revenge Things. Not affiliated with Discord Inc.</p>
+            <div class="social-links">
+                <a href="https://github.com/explysm/revenge-things" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://discord.gg/your-discord-invite" target="_blank"><i class="fab fa-discord"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

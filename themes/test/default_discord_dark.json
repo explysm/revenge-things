@@ -1,0 +1,186 @@
+{
+  "name": "Default Discord Dark",
+  "description": "The official Discord dark theme – perfect starting point.",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Discord",
+      "id": ""
+    }
+  ],
+  "semanticColors": {
+    "HEADER_PRIMARY": [
+      "#f1b3ff"
+    ],
+    "HEADER_SECONDARY": [
+      "#be8390"
+    ],
+    "TEXT_NORMAL": [
+      "#cea4de"
+    ],
+    "TEXT_MUTED": [
+      "#6e7d7d"
+    ],
+    "INTERACTIVE_NORMAL": [
+      "#a2bebe"
+    ],
+    "INTERACTIVE_HOVER": [
+      "#adbbde"
+    ],
+    "INTERACTIVE_ACTIVE": [
+      "#ffffff"
+    ],
+    "INTERACTIVE_MUTED": [
+      "#4f545c"
+    ],
+    "BACKGROUND_PRIMARY": [
+      "#3f001d"
+    ],
+    "BACKGROUND_SECONDARY": [
+      "#360c0d"
+    ],
+    "BACKGROUND_SECONDARY_ALT": [
+      "#3c3f45"
+    ],
+    "BACKGROUND_TERTIARY": [
+      "#1f0025"
+    ],
+    "BACKGROUND_ACCENT": [
+      "#43335c"
+    ],
+    "BACKGROUND_MOBILE_PRIMARY": [
+      "#940019"
+    ],
+    "BACKGROUND_MOBILE_SECONDARY": [
+      "#2f3136"
+    ],
+    "BACKGROUND_MESSAGE_HOVER": [
+      "rgba(4, 4, 5, 0.07)"
+    ],
+    "BACKGROUND_MODIFIER_HOVER": [
+      "rgba(79, 84, 92, 0.16)"
+    ],
+    "BACKGROUND_MODIFIER_ACTIVE": [
+      "rgba(79, 84, 92, 0.24)"
+    ],
+    "BACKGROUND_MODIFIER_SELECTED": [
+      "#5c0045"
+    ],
+    "BACKGROUND_MODIFIER_ACCENT": [
+      "#4f545c"
+    ],
+    "BACKGROUND_MENTIONED": [
+      "rgba(250, 166, 26, 0.05)"
+    ],
+    "BACKGROUND_MENTIONED_HOVER": [
+      "rgba(250, 166, 26, 0.08)"
+    ],
+    "CHANNELTEXTAREA_BACKGROUND": [
+      "#40444b"
+    ],
+    "REDESIGN_ACTIVITY_CARD_BACKGROUND": [
+      "#202225"
+    ],
+    "REDESIGN_BUTTON_SECONDARY_BACKGROUND": [
+      "#2f3136"
+    ],
+    "REDESIGN_CHAT_INPUT_BACKGROUND": [
+      "#2f3136"
+    ],
+    "REDESIGN_BUTTON_TERTIARY_BACKGROUND": [
+      "#292b2f"
+    ],
+    "REDESIGN_BUTTON_SECONDARY_BORDER": [
+      "#4f545c"
+    ],
+    "REDESIGN_CHANNEL_CATEGORY_NAME_TEXT": [
+      "#b9bbbe"
+    ],
+    "REDESIGN_CHANNEL_NAME_TEXT": [
+      "#b9bbbe"
+    ],
+    "CHANNELS_DEFAULT": [
+      "#b9bbbe"
+    ],
+    "CHANNEL_ICON": [
+      "#b9bbbe"
+    ],
+    "TEXT_PRIMARY": [
+      "#dcddde"
+    ],
+    "TEXT_LINK": [
+      "#00aff4"
+    ],
+    "THREAD_CHANNEL_SPINE": [
+      "#4f545c"
+    ]
+  },
+  "rawColors": {
+    "PRIMARY_100": "#f5f5f5",
+    "PRIMARY_200": "#e5e5e5",
+    "PRIMARY_300": "#d4d4d4",
+    "PRIMARY_400": "#b3b3b3",
+    "PRIMARY_500": "#72767d",
+    "PRIMARY_600": "#4f545c",
+    "PRIMARY_700": "#36393f",
+    "PRIMARY_800": "#2f3136",
+    "BRAND_100": "#f5f5f5",
+    "BRAND_130": "#e5e5e5",
+    "BRAND_160": "#d4d4d4",
+    "BRAND_200": "#b3b3b3",
+    "BRAND_230": "#72767d",
+    "BRAND_260": "#4f545c",
+    "BRAND_300": "#36393f",
+    "BRAND_330": "#2f3136",
+    "BRAND_360": "#202225",
+    "BRAND_400": "#1a1b1e",
+    "BRAND_430": "#121315",
+    "BRAND_460": "#0a0b0d",
+    "BRAND_500": "#5865f2",
+    "BRAND_530": "#4752c4",
+    "BRAND_560": "#3c45a5",
+    "BRAND_600": "#343d8c",
+    "BRAND_700": "#2a3373",
+    "BRAND_760": "#232a5c",
+    "BRAND_800": "#1c214d",
+    "BRAND_830": "#141a3d",
+    "BRAND_860": "#0d1230",
+    "BRAND_900": "#060a24",
+    "GREEN_360": "#57f287",
+    "YELLOW_360": "#fee75c",
+    "RED_360": "#ed4245",
+    "WHITE_500": "#ffffff",
+    "BLACK_500": "#000000",
+    "GUILD_BOOSTING_PINK": "#ff73fa",
+    "GUILD_BOOSTING_PURPLE": "#b473ff",
+    "STATUS_GREEN": "#3ba55c",
+    "STATUS_YELLOW": "#faa61a",
+    "STATUS_RED": "#ed4245",
+    "STATUS_DARK_GRAY": "#747f8d"
+  },
+  "plus": {
+    "version": "0",
+    "customOverlays": true,
+    "icons": {
+      "ic_radio_circle_checked": "#5865f2",
+      "ic_radio_circle_checked__overlay": "#ffffff",
+      "ic_radio_square_24px": "#5865f2",
+      "ic_radio_square_checked_24px": "#5865f2",
+      "ic_radio_square_checked_24px__overlay": "#ffffff",
+      "ic_selection_checked_24px": "#5865f2",
+      "ic_selection_checked_24px__overlay": "#ffffff",
+      "StatusMobileOnline": "#3ba55c",
+      "StatusIdle": "#faa61a",
+      "StatusDND": "#ed4245",
+      "StatusOffline": "#747f8d",
+      "StatusOnline": "#3ba55c",
+      "StatusStreaming": "#593695"
+    }
+  },
+  "background": {
+    "blur": 0,
+    "url": "",
+    "alpha": 1
+  },
+  "spec": 2
+}
